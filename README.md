@@ -7,6 +7,7 @@ Currently streaming video over paired transceivers and saving hex-encoded bytes 
 Hardware specs:
 
 TX = Computer + Arduino Uno + RobotShop 433MHz transceiver module (UART communication)
+
 RX = 433Mhz transceiver module + ESP32 (UART) + WiFi connection
 
 Notes:

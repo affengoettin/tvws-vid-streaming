@@ -24,8 +24,7 @@ for file in os.listdir(dirname):
 
 
         # all_content = bytes(all_content, 'latin1')
-        n = 64 # max buffer length? fuckin Uno piece of trash lookin ass = 64,
-        # esp32 = 256 (allegedly)
+        n = 64 # max buffer length? Uno = 64, esp32 = 256 (allegedly)
         chunked_data = [all_content[i:i+n] for i in range(0, len(all_content), n)]
         counter = 1
 
